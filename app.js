@@ -35,7 +35,7 @@ class UI {
 
     showMessage(message, cssClass){
         const div = document.createElement('div');
-        div.className='alert alert-${cssClass} mt-2';
+        div.className= 'alert alert-${cssClass} mt-2';
         div.appendChild(document.createTextNode(message));
         //show in the DOM
         const container = document.querySelector('.container');
